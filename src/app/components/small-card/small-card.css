@@ -11,6 +11,7 @@ margin: 0 0 20px 0;
 .small-card__photo img{
   width: 200px;
   height: auto;
+  margin-bottom: 5px;
 }
 
 .small-card__title {

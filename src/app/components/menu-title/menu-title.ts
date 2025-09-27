@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-menu-title',
   imports: [],
   templateUrl: './menu-title.html',
-  styleUrl: './menu-title.css'
+  styleUrl: './menu-title.css',
 })
 export class MenuTitle {
 
