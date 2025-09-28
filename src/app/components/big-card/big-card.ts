@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './big-card.html',
-  styleUrl: './big-card.css'
+  styleUrls: ['./big-card.css']
 })
 export class BigCard {
 
@@ -16,6 +17,9 @@ cardTitle:string =""
 
 @Input()
 cardDescription:string =""
+
+@Input()
+Id:string ="0"
 
   constructor() {}
 
